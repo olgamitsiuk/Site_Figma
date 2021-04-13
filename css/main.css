@@ -1,9 +1,6 @@
 body {
   position: relative; }
 
-header {
-  padding: 0; }
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,11 +76,15 @@ header {
   .burger input {
     display: none; }
   .burger label {
-    cursor: pointer; }
-    .burger label img {
-      position: absolute;
-      top: 60px;
-      right: 70px; }
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.burgerimg {
+  position: absolute;
+  top: 60px;
+  right: 10%;
+  z-index: 19; }
 
 .button_on {
   position: absolute;
@@ -92,7 +93,7 @@ header {
   opacity: 90%;
   background-color: #000;
   width: 320px;
-  height: 1000px;
+  height: 100vw;
   z-index: 20;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,14 +105,40 @@ header {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 24px; }
-  .button_on li {
-    padding: 15px; }
-    .button_on li a {
-      text-decoration: none; }
-    .button_on li a:hover {
-      border-bottom: 3px solid #5094f2; }
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff; }
+  .button_on img {
+    position: absolute;
+    top: 41px;
+    right: 16px; }
+  .button_on ul {
+    padding-top: 165px;
+    padding-bottom: 5px; }
+    .button_on ul li {
+      padding: 10px 15px; }
+      .button_on ul li a {
+        font-weight: 500;
+        text-decoration: none;
+        color: #fff; }
+
+.contacts_burger {
+  display: none;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .contacts_burger p {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 35px 0; }
+    .contacts_burger p a {
+      font-weight: bold;
+      color: #fff;
+      padding: 23px 34px 23px 35px;
+      border: 3px solid #fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 15px; }
 
 input + label > .button_on {
   display: none; }

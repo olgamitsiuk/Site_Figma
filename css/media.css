@@ -1,10 +1,28 @@
 
 /*Bootstrap*/
 /* xs - 576px */
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+.menu{
+	display: none;}
+.burger{
+	display: block;}
+.contacts{
+	display: none;}
+.contacts_burger{
+	display: block;}
+}
 
 /* sm-576px */
-@media (min-width: 576px) {}
+@media (min-width: 576px) and (max-width: 768px){
+.menu{
+	display: none;}
+.burger{
+	display: block;}
+.contacts{
+	display: none;}
+.contacts_burger{
+	display: block;}
+}
 
 /* md-768px */
 @media (min-width: 768px) and (max-width: 992px){
@@ -13,6 +31,8 @@
 	line-height: 22px;}
 .logo{
     margin-right: 31px; }
+.contacts a {
+  padding: 17px 26px 17px 27px;}
 .menu{
 	display: none;}
 .burger{
