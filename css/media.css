@@ -1,0 +1,27 @@
+
+/*Bootstrap*/
+/* xs - 576px */
+@media (max-width: 575px) {}
+
+/* sm-576px */
+@media (min-width: 576px) {}
+
+/* md-768px */
+@media (min-width: 768px) {}
+
+/* lg-992px */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header{
+	font-size: 18px;
+	line-height: 22px;}
+.logo{
+      margin-right: 15px; }	
+.menu li {
+    padding-right: 30px; }	
+
+.button {
+  padding: 17px 26px 17px 27px;}
+}
+
+/* xl-1200px */
+@media (min-width: 1200px) {}
