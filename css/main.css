@@ -12,7 +12,6 @@ body {
   .burger input {
     display: none; }
   .burger label {
-    cursor: pointer;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
 
@@ -57,6 +56,8 @@ body {
         font-weight: 500;
         text-decoration: none;
         color: #fff; }
+      .button_on ul li a:hover {
+        text-decoration: underline; }
 
 .contacts_burger {
   display: none;
@@ -153,7 +154,7 @@ input:checked + label > .burgerimg {
     text-decoration: none; }
 
 .baner {
-  background: url("../img/Rectangle 2.png") no-repeat center center;
+  background: url("../img/baner.png") no-repeat center center;
   background-size: cover;
   min-height: 730px; }
 
@@ -180,3 +181,33 @@ input:checked + label > .burgerimg {
       border-radius: 15px; }
     .banertext p a:hover {
       text-decoration: none; }
+
+.info {
+  padding-left: 0; }
+  .info h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #5C2DBB;
+    padding: 50px 0 60px 0; }
+  .info p {
+    font-size: 20px;
+    line-height: 136%;
+    padding: 15px 0; }
+
+.info_foto {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .info_foto img {
+    width: 270px;
+    height: 384px; }
+  .info_foto img:first-child {
+    margin-top: 163px; }
+  .info_foto img:last-child {
+    margin-top: 117px;
+    margin-bottom: 45px; }

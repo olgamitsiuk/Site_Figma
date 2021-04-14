@@ -14,7 +14,6 @@ body
 		display: none
 
 	label
-		cursor: pointer
 		box-sizing: border-box
 		
 .burgerimg
@@ -53,6 +52,8 @@ body
 				font-weight: 500
 				text-decoration: none
 				color: #fff
+			a:hover
+				text-decoration: underline
 .contacts_burger
 	display: none
 	padding: 0 15px
@@ -119,7 +120,7 @@ input:checked + label > .burgerimg
 		background-color: #5C2DBB
 		text-decoration: none
 .baner
-	background: url("../img/Rectangle 2.png") no-repeat center center
+	background: url("../img/baner.png") no-repeat center center
 	background-size: cover
 	min-height: 730px
 .banertext
@@ -145,3 +146,28 @@ input:checked + label > .burgerimg
 			border-radius: 15px
 		a:hover 
 			text-decoration: none 
+.info
+	padding-left: 0
+	h2 
+		font-weight: bold
+		font-size: 30px
+		line-height: 37px
+		color: #5C2DBB
+		padding: 50px 0 60px 0
+	p 
+		font-size: 20px
+		line-height: 136%	
+		padding: 15px 0
+.info_foto
+	padding: 0
+	display: flex
+	justify-content: space-between
+	img 
+		width: 270px
+		height: 384px
+	img:first-child
+		margin-top: 163px
+	img:last-child
+		margin-top: 117px
+		margin-bottom: 45px
+		
