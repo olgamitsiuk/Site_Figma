@@ -258,12 +258,77 @@ input:checked + label > .burgerimg {
 .image_6, .image_7, .image_8 {
   margin-top: -90px; }
 
-.image_9, .image_10, .image_11 {
+.image_9, .image_11, .image_12, .image_13, .image_14 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 15px 0; }
+  .image_9 img, .image_11 img, .image_12 img, .image_13 img, .image_14 img {
+    width: 100%; }
+
+.image_10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 15px 0;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.foto_1, .foto_2, .foto_3, .foto_4, .foto_5, .foto_6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: start; }
-  .image_9 img, .image_10 img, .image_11 img {
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .foto_1 img, .foto_2 img, .foto_3 img, .foto_4 img, .foto_5 img, .foto_6 img {
     width: 100%; }
+  .foto_1 p, .foto_2 p, .foto_3 p, .foto_4 p, .foto_5 p, .foto_6 p {
+    font-size: 26px;
+    line-height: 32px;
+    width: 83%;
+    padding: 23px;
+    margin-top: -130px;
+    color: #fff;
+    background-color: #5C2DBB;
+    border-radius: 15px;
+    opacity: 90%; }
+    .foto_1 p span, .foto_2 p span, .foto_3 p span, .foto_4 p span, .foto_5 p span, .foto_6 p span {
+      font-size: 20px;
+      line-height: 24px; }
+
+.foto_1 {
+  padding-top: 90px; }
+
+.foto_2 {
+  padding-top: 45px; }
+
+.foto_3 {
+  padding-top: 0; }
+
+.foto_4 {
+  margin-top: 30px; }
+
+.foto_5 {
+  margin-top: -15px; }
+
+.foto_6 {
+  margin-top: -60px; }

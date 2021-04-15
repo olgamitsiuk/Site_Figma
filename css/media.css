@@ -80,6 +80,23 @@
 	padding-top: 55px; }
 .image_5, .image_6, .image_7, .image_8{
 	margin-top: -55px;}
+.foto_1 {
+  padding-top: 45px; }
+
+.foto_2 {
+  padding-top: 0; }
+
+.foto_3 {
+  padding-top: 0; }
+
+.foto_4 {
+  margin-top: -45px; }
+
+.foto_5 {
+  margin-top: 0; }
+
+.foto_6 {
+  margin-top: -45px; }
 }
 
 /* md-768px */
