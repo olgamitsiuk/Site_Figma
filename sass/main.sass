@@ -146,28 +146,61 @@ input:checked + label > .burgerimg
 			border-radius: 15px
 		a:hover 
 			text-decoration: none 
-.info
-	padding-left: 0
+.content
 	h2 
 		font-weight: bold
 		font-size: 30px
 		line-height: 37px
 		color: #5C2DBB
-		padding: 50px 0 60px 0
+		padding: 50px 0 30px 0
+	h6 
+		font-size: 20px
+		line-height: 24px
+		color: #222222
+		padding: 30px 0
+.info
+	padding-left: 0
 	p 
 		font-size: 20px
 		line-height: 136%	
-		padding: 15px 0
+		padding-top: 30px
+	.one
+		padding-top: 45px
 .info_foto
 	padding: 0
 	display: flex
 	justify-content: space-between
-	img 
-		width: 270px
-		height: 384px
+.info_foto_large
 	img:first-child
-		margin-top: 163px
+		margin-top: 162px
+		margin-right: 20px
 	img:last-child
 		margin-top: 117px
 		margin-bottom: 45px
-		
+.info_foto_sm
+	display: none
+.events
+	padding: 0		
+.image_3, .image_4, .image_5, .image_6, .image_7, .image_8
+	display: flex
+	flex-direction: column
+	justify-content: flex-start
+	align-items: start
+	box-sizing: border-box
+	img 
+		width: 100%
+
+.image_3, .image_6
+	padding-top: 0		
+.image_4, .image_7
+	padding-top: 45px
+.image_5, .image_8
+	padding-top: 90px
+.image_6, .image_7, .image_8
+	margin-top: -90px
+
+.image_9, .image_10, .image_11
+	display: flex
+	justify-content: start
+	img 
+		width: 100%

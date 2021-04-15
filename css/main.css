@@ -182,18 +182,27 @@ input:checked + label > .burgerimg {
     .banertext p a:hover {
       text-decoration: none; }
 
+.content h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #5C2DBB;
+  padding: 50px 0 30px 0; }
+
+.content h6 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #222222;
+  padding: 30px 0; }
+
 .info {
   padding-left: 0; }
-  .info h2 {
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
-    color: #5C2DBB;
-    padding: 50px 0 60px 0; }
   .info p {
     font-size: 20px;
     line-height: 136%;
-    padding: 15px 0; }
+    padding-top: 30px; }
+  .info .one {
+    padding-top: 45px; }
 
 .info_foto {
   padding: 0;
@@ -203,11 +212,58 @@ input:checked + label > .burgerimg {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  .info_foto img {
-    width: 270px;
-    height: 384px; }
-  .info_foto img:first-child {
-    margin-top: 163px; }
-  .info_foto img:last-child {
-    margin-top: 117px;
-    margin-bottom: 45px; }
+
+.info_foto_large img:first-child {
+  margin-top: 162px;
+  margin-right: 20px; }
+
+.info_foto_large img:last-child {
+  margin-top: 117px;
+  margin-bottom: 45px; }
+
+.info_foto_sm {
+  display: none; }
+
+.events {
+  padding: 0; }
+
+.image_3, .image_4, .image_5, .image_6, .image_7, .image_8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .image_3 img, .image_4 img, .image_5 img, .image_6 img, .image_7 img, .image_8 img {
+    width: 100%; }
+
+.image_3, .image_6 {
+  padding-top: 0; }
+
+.image_4, .image_7 {
+  padding-top: 45px; }
+
+.image_5, .image_8 {
+  padding-top: 90px; }
+
+.image_6, .image_7, .image_8 {
+  margin-top: -90px; }
+
+.image_9, .image_10, .image_11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start; }
+  .image_9 img, .image_10 img, .image_11 img {
+    width: 100%; }

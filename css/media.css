@@ -15,7 +15,7 @@
 	line-height: 32px;}
 .banertext p{
 	font-size: 19px;}
-.info h2{
+.content h2{
     font-size: 15px;
     line-height: 18px;
 	padding-bottom: 15px;}
@@ -24,15 +24,14 @@
 .info_foto{
 	flex-direction: column;
 	align-items: center;}
-.info_foto img:first-child {
-    margin-top: 107px;
-    width: 209px;
-   	height: 127px; }
-  .info_foto img:last-child {
-    margin-top: 13px;
-    margin-bottom: 0; 
-    width: 209px;
-   	height: 146px;}
+.info_foto_large{
+	display: none; }
+.info_foto_sm{
+	display: block; }
+.info_foto_sm img:first-child {
+    margin-top: 107px;}
+.info_foto_sm img:last-child {
+    margin-top: 13px; }
 
 }
 
@@ -52,24 +51,35 @@
 	line-height: 32px;}
 .banertext p{
 	font-size: 19px;}
-.info h2{
+.content h2{
     font-size: 22px;
     line-height: 27px;
 	padding-bottom: 15px;}
+.content h6{
+    font-size: 16px;
+    line-height: 20px;}
 .info p{
-    font-size: 16px;}
+    font-size: 16px;
+	padding-right: 50px;}
+.info .one {
+    padding-top: 15px; }
 .info_foto{
 	flex-direction: column;
 	align-items: center;}
-.info_foto img:first-child {
-    margin-top: 107px;
-    width: 209px;
-   	height: 127px; }
-  .info_foto img:last-child {
-    margin-top: 13px;
-    margin-bottom: 0; 
-    width: 209px;
-   	height: 146px;}
+.info_foto_large{
+	display: none; }
+.info_foto_sm{
+	display: block; }
+.info_foto_sm img:first-child {
+    margin-top: 107px;}
+.info_foto_sm img:last-child {
+    margin-top: 13px; }
+.image_3, .image_5, .image_7{
+	padding-top: 0; }
+.image_4, .image_6, .image_8{
+	padding-top: 55px; }
+.image_5, .image_6, .image_7, .image_8{
+	margin-top: -55px;}
 }
 
 /* md-768px */
@@ -85,14 +95,21 @@
 	display: none;}
 .burger{
 	display: block;}
-.info h2{
+.content h2{
     font-size: 26px;
     line-height: 32px;}
+.content h6{
+    font-size: 18px;
+    line-height: 22px;}
 .info p{
     font-size: 18px;}
-.info_foto img {
+.info_foto_large img {
    width: 226px;
    height: 312px; }
+.image_4, .image_7{
+	padding-top: 40px}
+.image_5, .image_8{
+	padding-top: 85px}
 }
 /* lg-992px */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -106,7 +123,7 @@
 
 .contacts a {
   padding: 17px 26px 17px 27px;}
-.info_foto img {
+.info_foto_large img {
    width: 298px;}
 }
 
