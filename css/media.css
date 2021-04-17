@@ -4,7 +4,7 @@
 @media (max-width: 575px) {
 .menu{
 	display: none;}
-.burger{
+.nav-burger{
 	display: block;}
 .contacts{
 	display: none;}
@@ -16,11 +16,11 @@
 .banertext p{
 	font-size: 19px;}
 .content h2{
-    font-size: 15px;
-    line-height: 18px;
+  font-size: 15px;
+  line-height: 18px;
 	padding-bottom: 15px;}
 .info p{
-    font-size: 12px;}
+  font-size: 12px;}
 .info_foto{
 	flex-direction: column;
 	align-items: center;}
@@ -29,9 +29,9 @@
 .info_foto_sm{
 	display: block; }
 .info_foto_sm img:first-child {
-    margin-top: 107px;}
+  margin-top: 107px;}
 .info_foto_sm img:last-child {
-    margin-top: 13px; }
+  margin-top: 13px; }
 
 }
 
@@ -40,7 +40,7 @@
 @media (min-width: 576px) and (max-width: 768px){
 .menu{
 	display: none;}
-.burger{
+.nav_burger{
 	display: block;}
 .contacts{
 	display: none;}
@@ -52,17 +52,17 @@
 .banertext p{
 	font-size: 19px;}
 .content h2{
-    font-size: 22px;
-    line-height: 27px;
+  font-size: 22px;
+  line-height: 27px;
 	padding-bottom: 15px;}
 .content h6{
-    font-size: 16px;
-    line-height: 20px;}
+  font-size: 16px;
+  line-height: 20px;}
 .info p{
-    font-size: 16px;
+  font-size: 16px;
 	padding-right: 50px;}
 .info .one {
-    padding-top: 15px; }
+  padding-top: 15px; }
 .info_foto{
 	flex-direction: column;
 	align-items: center;}
@@ -71,9 +71,9 @@
 .info_foto_sm{
 	display: block; }
 .info_foto_sm img:first-child {
-    margin-top: 107px;}
+  margin-top: 107px;}
 .info_foto_sm img:last-child {
-    margin-top: 13px; }
+  margin-top: 13px; }
 .image_3, .image_5, .image_7{
 	padding-top: 0; }
 .image_4, .image_6, .image_8{
@@ -81,22 +81,25 @@
 .image_5, .image_6, .image_7, .image_8{
 	margin-top: -55px;}
 .foto_1 {
-  padding-top: 45px; }
-
+  margin-top: 45px; }
 .foto_2 {
-  padding-top: 0; }
-
-.foto_3 {
-  padding-top: 0; }
-
-.foto_4 {
-  margin-top: -45px; }
-
-.foto_5 {
   margin-top: 0; }
-
+.foto_3 {
+  margin-top: 30px; }
+.foto_4 {
+  margin-top: -15px; }
+.foto_5 {
+  margin-top: 30px; }
 .foto_6 {
-  margin-top: -45px; }
+  margin-top: -15px; }
+.foto_1 h3, .foto_2 h3, .foto_3 h3, .foto_4 h3, .foto_5 h3, .foto_6 h3 {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 16px 0 16px 12px;
+  top: 240px;}
+.foto_1 h3 span, .foto_2 h3 span, .foto_3 h3 span, .foto_4 h3 span, .foto_5 h3 span, .foto_6 h3 span {
+  font-size: 12px;
+  line-height: 15px; }
 }
 
 /* md-768px */
@@ -105,28 +108,36 @@
 	font-size: 18px;
 	line-height: 22px;}
 .logo{
-    margin-right: 31px; }
+  margin-right: 31px; }
 .contacts a {
   padding: 17px 26px 17px 27px;}
 .menu{
 	display: none;}
-.burger{
+.nav_burger{
 	display: block;}
 .content h2{
-    font-size: 26px;
-    line-height: 32px;}
+  font-size: 26px;
+  line-height: 32px;}
 .content h6{
-    font-size: 18px;
-    line-height: 22px;}
+  font-size: 18px;
+  line-height: 22px;}
 .info p{
-    font-size: 18px;}
+  font-size: 18px;}
 .info_foto_large img {
-   width: 226px;
-   height: 312px; }
+  width: 226px;
+  height: 312px; }
 .image_4, .image_7{
 	padding-top: 40px}
 .image_5, .image_8{
 	padding-top: 85px}
+.foto_1 h3, .foto_2 h3, .foto_3 h3, .foto_4 h3, .foto_5 h3, .foto_6 h3 {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 18px 0 18px 14px;
+	top: 190px;}
+.foto_1 h3 span, .foto_2 h3 span, .foto_3 h3 span, .foto_4 h3 span, .foto_5 h3 span, .foto_6 h3 span {
+  font-size: 14px;
+  line-height: 17px; }
 }
 /* lg-992px */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -137,11 +148,12 @@
       margin-right: 15px; }	
 .menu li {
     padding-right: 30px; }	
-
 .contacts a {
   padding: 17px 26px 17px 27px;}
 .info_foto_large img {
    width: 298px;}
+.foto_1 h3, .foto_2 h3, .foto_3 h3, .foto_4 h3, .foto_5 h3, .foto_6 h3 {
+  top: 270px; }
 }
 
 
