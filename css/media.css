@@ -18,10 +18,15 @@
 .content h2{
   font-size: 22px;
   line-height: 27px;
-  padding-bottom: 15px;}
+  padding-bottom: 15px;
+  padding-top: 45px;}
 .content h6{
   font-size: 16px;
-  line-height: 20px;}
+  line-height: 20px;
+  padding: 15px 0;}
+.info{
+  width: 49%;
+  position: relative;}
 .info p{
   font-size: 16px;
   padding-right: 50px;}
@@ -29,7 +34,11 @@
   padding-top: 15px; }
 .info_foto{
   flex-direction: column;
-  align-items: center;}
+  align-items: center;
+  width: 49%;
+  position: absolute;
+  top: 900px;
+  right: 15px;}
 .info_foto_large{
   display: none; }
 .info_foto_sm{
@@ -38,29 +47,59 @@
   margin-top: 107px;}
 .info_foto_sm img:last-child {
   margin-top: 13px; }
-.image_3, .image_5, .image_7{
-  padding-top: 0; }
-.image_4, .image_6, .image_8{
-  padding-top: 55px; }
-.image_5, .image_6, .image_7, .image_8{
-  margin-top: -55px;}
-.foto_1 {
-  margin-top: 45px; }
-.foto_2 {
-  margin-top: 0; }
-.foto_3 {
-  margin-top: 30px; }
-.foto_4 {
-  margin-top: -15px; }
-.foto_5 {
-  margin-top: 30px; }
-.foto_6 {
-  margin-top: -15px; }
+.image_3, .image_5, .image_7, .image_4, .image_6, .image_8{
+  padding-top: 10px; 
+  width: 48%;
+  margin-top: 10px;}
+.image_3 img, .image_5 img, .image_7 img, .image_4 img, .image_6 img, .image_8 img{
+  height: 242px;
+}
+.image_3{
+  position: relative;}
+.image_4{
+  position: absolute;
+  top: -280px;
+  right: 0;}
+.image_6{
+  position: absolute;
+  top: -270px;
+  right: 0;}
+.image_8{
+  position: absolute;
+  top: -260px;
+  right: 0;}
+.image_9, .image_10, .image_11, .image_12, .image_13, .image_14 {
+  width: 48%;}
+.image_9{
+  position: relative;}
+.image_10, .image_12, .image_14{
+  position: absolute;
+  top: -327px;
+  right: 0;}
+.foto_1, .foto_2, .foto_3, .foto_4, .foto_5, .foto_6 {
+  margin-top: 20px;
+  width: 48%; }
+.foto_1 img, .foto_2 img, .foto_3 img, .foto_4 img, .foto_5 img, .foto_6 img{
+  height: 352px;}
+.foto_1{
+  position: relative;}
+.foto_2{
+  position: absolute;
+  top: -390px;
+  right: 0;}
+.foto_4{
+  position: absolute;
+  top: -390px;
+  right: 0;}
+.foto_6{
+  position: absolute;
+  top: -390px;
+  right: 0;}
 .foto_1 h3, .foto_2 h3, .foto_3 h3, .foto_4 h3, .foto_5 h3, .foto_6 h3 {
   font-size: 16px;
   line-height: 20px;
   padding: 16px 0 16px 12px;
-  top: 240px;}
+  top: 70%;}
 .foto_1 h3 span, .foto_2 h3 span, .foto_3 h3 span, .foto_4 h3 span, .foto_5 h3 span, .foto_6 h3 span {
   font-size: 12px;
   line-height: 15px; }
@@ -216,7 +255,7 @@ header {
 .menu li {
   padding-right: 30px; }	
 .contacts a {
-  padding: 17px 26px 17px 27px;}
+  padding: 17px 24px 17px 24px;}
 .info_foto_large img {
    width: 298px;}
 .foto_1 h3, .foto_2 h3, .foto_3 h3, .foto_4 h3, .foto_5 h3, .foto_6 h3 {

@@ -2,7 +2,8 @@ body {
   position: relative;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: normal; }
+  font-weight: normal;
+  min-width: 480px; }
 
 .nav_burger {
   display: none;
@@ -53,6 +54,10 @@ body {
     .button_on ul li {
       padding: 10px 15px; }
       .button_on ul li a {
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
         font-weight: 500;
         text-decoration: none;
         color: #fff; }
@@ -141,7 +146,7 @@ header {
     font-weight: bold;
     color: #5C2DBB;
     padding: 23px 34px 23px 35px;
-    margin-left: 5px;
+    margin-left: 7px;
     border: 3px solid #5C2DBB;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
