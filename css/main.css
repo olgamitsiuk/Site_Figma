@@ -86,7 +86,7 @@ input:checked + label > .button_on {
 input:checked + label > .burgerimg {
   display: none; }
 
-.header {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,7 +101,7 @@ input:checked + label > .burgerimg {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px; }
-  .header nav {
+  header nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -112,9 +112,6 @@ input:checked + label > .burgerimg {
     -ms-flex-align: center;
     align-items: center;
     padding: 27px 0; }
-
-.nav {
-  padding: 0; }
 
 .logo {
   margin-right: 50px; }
@@ -144,6 +141,7 @@ input:checked + label > .burgerimg {
     font-weight: bold;
     color: #5C2DBB;
     padding: 23px 34px 23px 35px;
+    margin-left: 5px;
     border: 3px solid #5C2DBB;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
